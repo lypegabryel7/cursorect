@@ -17,7 +17,7 @@ function DetallePokemon({mostrar, pokemon, cerrar}) {
           <h3 className="titulo-seccion">Habilidades</h3>
           {pokemon.abilities?.map(ability => <span className='tag'>{ability}</span>)}
 
-          <h3 className="titulo-seccion">Estadisticas</h3>
+          <h3 className="titulo-seccion">Estatísticas</h3>
           <div className='stats'>
             {pokemon.stats?.map(stat =>
               <section>
